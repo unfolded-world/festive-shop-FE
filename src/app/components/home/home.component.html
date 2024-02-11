@@ -1,0 +1,5 @@
+<!-- <app-items [itemDetails]="itemsList"></app-items> -->
+<app-top-bar></app-top-bar>
+<div class="d-flex" *ngFor="let item of itemsList">
+    <app-items [itemDetails]="item"></app-items>
+</div>
